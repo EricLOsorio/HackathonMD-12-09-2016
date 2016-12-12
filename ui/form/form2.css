@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+}
+#first_name {
+	width: 380px;
+}
+#last_name {
+	width: 380px;
+}
+
+#last_name[type=text]: {
+	border: none;
+	border-bottom: 4px solid #00cc00;
+}
+
+#form-disabled {
+	width: 785px;
+	background-color: silver;
+	color: #e6e6e6;
+}
+#label-disabled {
+	color: #e6e6e6;
+	margin-top: 2.25em;
+}
+#password {
+	width: 785px;	
+}
+#email {
+	width: 785px;
+}
+#inline-email {
+	width: 785px;
+}
+#comment {
+	width: 785px;
+	font-size: 22px;
+	border-top: grey;
+	border-right: grey;
+	border-left: grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*background-color: #4d94ff;*/
+}
+#comment:focus {
+	border-bottom: 4px solid blue;
+}
+#button {
+	width: 785px;
+	font-size: 22px;
+	border-top: grey;
+	border-right: grey;
+	border-left: grey;
+	background-color: #f2f2f2;
+	margin-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border: 1px solid grey;
+	/*background-color: #4d94ff;*/
+}
+
+form {
+	margin-left: 235px;
+	background-color: #c0c0c0;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+form div + div {
+	margin-top: 2.25em;
+}
+
+.input-field {
+	display: block;
+	/*border: 1px solid blue;*/
+}
+.col-fn {
+	float: left;
+	margin-left: 1px;
+	margin-top: 32px;
+}
+.col-ln {
+	float: right;
+	margin-bottom: 35px;
+}
+.col {
+	clear: both;
+}
+
+.s6 {
+	width: 385px;
+}
+
+.s12 {
+	width: 798px;
+}
+
+.inline {
+	white-space: nowrap;
+}
+
+.inline-desc {
+	float: left;
+	width: 175px;
+	margin-top: 71px;
+}
+
+.inline-input {
+	float: left;
+	width: 200px;
+	margin-bottom: 2.25em;
+}
+
+#inline-email {
+	width: 195px;
+}
+
+#form-row input {
+	font-size: 22px;
+	/*border: transparent;*/
+	border: none;
+	/*border-top: grey;
+	border-right: grey;
+	border-left: grey;*/
+	border-bottom: 2px solid grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*background-color: #4d94ff;*/
+}
+/*
+#form-row {
+	background-color: silver;
+	border-radius: 1em;
+	padding: 2px;
+}
+*/
+
+#form-row input:focus {
+	/*border-color: blue;*/
+	border-bottom: 4px solid blue;
+}
+
+#form-row input#form-disabled {
+	background-color: silver;
+}
